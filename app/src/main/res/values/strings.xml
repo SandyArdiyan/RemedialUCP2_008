@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Remidi PAM Library</string>
+    <string name="loading">Memuat data...</string>
+    <string name="unknown_error">Terjadi kesalahan tidak terduga</string>
+
+    <string name="label_category">Kategori</string>
+    <string name="label_book_title">Judul Buku</string>
+    <string name="label_author">Pengarang</string>
+    <string name="label_status">Status</string>
+    <string name="label_uncategorized">Tanpa Kategori</string>
+
+    <string name="status_available">Tersedia</string>
+    <string name="status_borrowed">Dipinjam</string>
+    <string name="status_lost">Hilang</string>
+
+    <string name="btn_save">Simpan</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_add_category">Tambah Kategori</string>
+    <string name="btn_add_book">Tambah Buku</string>
+
+    <string name="dialog_delete_title">Hapus Kategori?</string>
+    <string name="dialog_delete_message">Kategori ini memiliki buku di dalamnya. Apa yang ingin Anda lakukan?</string>
+    <string name="option_delete_all">Hapus Semua (Termasuk Buku)</string>
+    <string name="option_uncategorize">Hapus Kategori Saja (Buku jadi \'Tanpa Kategori\')</string>
+
+    <string name="error_field_required">Wajib diisi</string>
+    <string name="error_cyclic_reference">Gagal: Kategori induk tidak boleh menyebabkan putaran (loop).</string>
+    <string name="error_delete_restricted">Gagal: Tidak bisa menghapus kategori karena ada buku yang sedang DIPINJAM.</string>
+    <string name="msg_success_delete">Data berhasil dihapus</string>
+    <string name="msg_success_save">Data berhasil disimpan</string>
+</resources>
